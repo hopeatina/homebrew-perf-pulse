@@ -12,6 +12,11 @@ class PerfPulse < Formula
     sha256 "9a147945780c41630fecdbc4165490a6ee033721377e6c7ff97edca9bf534feb"
   end
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   def install
     bin.install "perf-pulse"
   end
