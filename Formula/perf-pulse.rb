@@ -6,10 +6,10 @@ class PerfPulse < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/hopeatina/perf-pulse/releases/download/v1.0.0/perf-pulse-1.0.0-darwin-arm64.tar.gz"
-    sha256 "05258e75d2d6611b2b362472be37e546ceb2d30327b5952708d22c13a381ff50"
+    sha256 "6585ddac53a226dd8a93c973dfd2c5d3640d6fbbb9327149da35313fe8d75095"
   else
     url "https://github.com/hopeatina/perf-pulse/releases/download/v1.0.0/perf-pulse-1.0.0-darwin-x86_64.tar.gz"
-    sha256 "22043356b1221744a9ee32702b29f04e1876328be1d92038568ef85599c204b6"
+    sha256 "9a147945780c41630fecdbc4165490a6ee033721377e6c7ff97edca9bf534feb"
   end
 
   def install
