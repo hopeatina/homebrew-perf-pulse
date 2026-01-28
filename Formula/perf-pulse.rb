@@ -5,16 +5,11 @@ class PerfPulse < Formula
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/hopeatina/perf-pulse/releases/download/v1.3.1/perf-pulse-1.3.1-darwin-arm64.tar.gz"
-    sha256 "ab49f37f9298d4557e987d04a705acb26d247d7c17e33645d8f8d3f185b97fa1"
+    url "https://perf-pulse.com/releases/v1.3.1/perf-pulse-1.3.1-darwin-arm64.tar.gz"
+    sha256 "9cc188bd662b962dfe694bd479119b06956a8e5df344415c5bb94316cccfab1a"
   else
-    url "https://github.com/hopeatina/perf-pulse/releases/download/v1.3.1/perf-pulse-1.3.1-darwin-x86_64.tar.gz"
-    sha256 "5772dea0c89590e8d2a15d7e385ebf56520cbab99b08b2bcf48a4acdd07ef862"
-  end
-
-  livecheck do
-    url :stable
-    strategy :github_latest
+    url "https://perf-pulse.com/releases/v1.3.1/perf-pulse-1.3.1-darwin-x86_64.tar.gz"
+    sha256 "e1e7790cab753390d3da78cf5398a50d124481b7619b803aa4534cba393a2773"
   end
 
   def install
