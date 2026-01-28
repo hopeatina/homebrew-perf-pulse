@@ -1,15 +1,15 @@
 class PerfPulse < Formula
   desc "The Activity Monitor replacement for developers"
   homepage "https://perf-pulse.com"
-  version "1.3.0"
+  version "1.3.1"
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/hopeatina/perf-pulse/releases/download/v1.3.0/perf-pulse-1.3.0-darwin-arm64.tar.gz"
-    sha256 "162ee2b721ba9b576f5913cb214a4eac99a31912b2612d1b50ef41f1c4a3ace2"
+    url "https://github.com/hopeatina/perf-pulse/releases/download/v1.3.1/perf-pulse-1.3.1-darwin-arm64.tar.gz"
+    sha256 "ab49f37f9298d4557e987d04a705acb26d247d7c17e33645d8f8d3f185b97fa1"
   else
-    url "https://github.com/hopeatina/perf-pulse/releases/download/v1.3.0/perf-pulse-1.3.0-darwin-x86_64.tar.gz"
-    sha256 "52fabc955e6e34ec669f883e51fe6ad82f09428be109696efe660efe54a7f8c6"
+    url "https://github.com/hopeatina/perf-pulse/releases/download/v1.3.1/perf-pulse-1.3.1-darwin-x86_64.tar.gz"
+    sha256 "5772dea0c89590e8d2a15d7e385ebf56520cbab99b08b2bcf48a4acdd07ef862"
   end
 
   livecheck do
