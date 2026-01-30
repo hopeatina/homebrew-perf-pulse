@@ -1,15 +1,15 @@
 class PerfPulse < Formula
   desc "The Activity Monitor replacement for developers"
   homepage "https://perf-pulse.com"
-  version "1.5.2"
+  version "1.5.3"
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://perf-pulse.com/releases/v1.5.2/perf-pulse-1.5.2-darwin-arm64.tar.gz"
-    sha256 "0dc208a146027c3fc062a7f1414b3c2582b8247666107701404fc3c81ed96ed0"
+    url "https://perf-pulse.com/releases/v1.5.3/perf-pulse-1.5.3-darwin-arm64.tar.gz"
+    sha256 "f2fcf84f80c2def6aadb2df73864bf81a69e5c230d8f6ec7d298f9acbebd814d"
   else
-    url "https://perf-pulse.com/releases/v1.5.2/perf-pulse-1.5.2-darwin-x86_64.tar.gz"
-    sha256 "54c1daf7d58336cb6af132c7e74d1b73c8fa5ba4e14ddf8ae5285767c7b5c7dc"
+    url "https://perf-pulse.com/releases/v1.5.3/perf-pulse-1.5.3-darwin-x86_64.tar.gz"
+    sha256 "bc696d895652e7a44ff3d0c1962740b0f9b055e1e5f3916fc1c7bca86567c4b3"
   end
 
   def install
